@@ -1,10 +1,10 @@
-# Dino Game Tutorial
+# Pinball Game Tutorial
 
 I used this code from https://www.youtube.com/watch?v=gAlJN8VGo94 & https://www.youtube.com/watch?v=HObTp3JM_Qw
 
-## 1. Create a new scene
+## 1. Making the paddle and getting it to work
 
-Start by creating a new scene called Dino, and delete and save the original.
+Start by clicking game object --> Create empty
 
 Please add the sprites you got from the net or created and put in the assets.
 
