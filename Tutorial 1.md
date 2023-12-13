@@ -12,20 +12,26 @@ Right-click on an empty space on the assets lists, go on create and create all t
 
 Take and hold the black material colour and let go to colour the cube
 
-Filter mode changes the filter of your pixel art depending on your game.
+Click on the shape that you have just created, click on add component --> Hinge Joint
 
-Still selected, unclick the ground sprite and change the under the **Default: Max size:** 2048 to 256 and the ground spite to 4096, then click apply. 
+Drag the flipper script and give it to the flipper that you have just made, what you will realise is that there is an orange arrow within the sprite, that orange arrow is what will hold the object in place depending on where on the shape you place it on
 
-The default mode is the maximum size of your pixel art.
+,,,
 
-After that, drag the player sprite in an idle position and ground sprites onto the "Hierarchy." click on Player, add components, add in "Character Controller", and change the character's name to Player or something else.
+    public class Flipper : MonoBehaviour
 
-Character controller allows you, the Player, to control the movements of the Player.
+,,,
 
-Underneath, you find "Tag." Change it to **"Player"** to let the game know this is the character you are moving or controlling. 
+This allows you to publicly edit specific changes that you want to make to the flipper
 
-Then go on the ground and add a "Box collider".
+,,,
 
-A box collider is a collider that makes the game recognize that you crashed into something.
+    private new HingeJoint hingeJoint;
 
-A tag in unity means giving a label to something and then calling it later in the script.
+    private void Awake()
+    {
+        hingeJoint = GetComponent<HingeJoint>();
+        hingeJoint.useSpring = true;
+    }
+
+,,,
