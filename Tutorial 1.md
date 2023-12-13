@@ -4,13 +4,13 @@ I used this code from https://www.youtube.com/watch?v=gAlJN8VGo94 & https://www.
 
 ## 1. Making the paddle and getting it to work
 
-Start by clicking game object --> Create empty
+Start by clicking game object --> 3D Objects --> Cube
 
-Please add the sprites you got from the net or created and put in the assets.
+Place the cube towards the bottom of the plane, and resize it to make it longer to your liking
 
-Then click on all the sprites on the right-hand side and see "Wrap mode." Change it from** "Clamp"** to **"Repeat"** and **"Filter mode"** change it to **point(no filter)**. 
+Right-click on an empty space on the assets lists, go on create and create all the materials needed, from textures to colour
 
-Wrap mode determines how time is treated outside of the keyframed range of an AnimationClip or AnimationCurve.
+Take and hold the black material colour and let go to colour the cube
 
 Filter mode changes the filter of your pixel art depending on your game.
 
