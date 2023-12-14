@@ -74,3 +74,34 @@ For the spring to work properly, we will write something that will allow the bal
             moveCount -= 20 * Time.deltaTime;
 
 ,,,
+
+Finally, before editing the strength of the spring, we will add controls to the spring so it can be controlled by either a keyboard or mouse:
+
+,,,
+
+    private void Update()
+    {
+        if (Input.GetButton(inputButtonName))
+        {
+            // As the button is held down, slowly move the piece
+            if (moveCount < distance)
+            {
+                transform.Translate(0, 0, -speed * Time.deltaTime);
+                moveCount += speed * Time.deltaTime;
+                fire = true;
+            }
+        }
+        else if (moveCount > 0)
+
+,,,
+
+Now onto editing the movement of the spring, we will type out how far the spring is allowed to move back, its speed as well as its strength alongside allowing it to identify what object the spring is shooting
+
+Change the digits to the following figures within the pull spring script in the inspect tab:
+- Distance --> 1.8
+- Speed --> 1.5
+- Power --> 1500
+
+For the ball, grab the ball from your hierarchy and drop it onto the ball section within the open script
+
+Finally set the ball to a ball tag on the top of the inspector page
