@@ -41,6 +41,7 @@ Head to the Hinge joint section within the inspector tab:
 As for the anchor;
 
 - the x-axis will be -0.5, y-axis will be 0
+
 For the Axis;
 
 - the x-axis will be 0, y-axis will be 1
