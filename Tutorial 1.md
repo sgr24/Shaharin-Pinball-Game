@@ -37,9 +37,13 @@ This allows you to publicly edit specific changes that you want to make to the f
 ,,,
 
 Head to the Hinge joint section within the inspector tab:
+
 As for the anchor;
+
                     - the x-axis will be -0.5, y-axis will be 0
 For the Axis;
+
             - the x-axis will be 0, y-axis will be 1
+
 
 This will allow the hinge to be fixated into the back end of the paddle, allowing it to swing up and down when needed
