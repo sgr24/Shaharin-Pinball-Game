@@ -32,3 +32,18 @@ The public code is what allows you to edit the strength of the spring, as well a
         private float moveCount = 0f;
     
 ,,,
+
+The way the spring will stop the ball from rolling back within its lane is through collision as well as a rigid body;
+
+,,,
+
+    private void OnCollisionEnter(Collision _other)
+    {
+        if (_other.gameObject.tag == "Ball")
+        {
+            ready = true;
+        }
+    }
+
+,,,
+
