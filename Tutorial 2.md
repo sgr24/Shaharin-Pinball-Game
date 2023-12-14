@@ -18,3 +18,17 @@ Drag the PullSpring script onto the cube, this will apply the code to the object
 
 The public code is what allows you to edit the strength of the spring, as well as how far it travels down to shoot the ball up and how fast the spring should move;
 
+,,,
+
+public class CodeTranslation : MonoBehaviour
+{
+    public string inputButtonName = "Pull";
+    public float distance = 50f;
+    public float speed = 1f;
+    public GameObject ball;
+    public float power = 2000f;
+    private bool ready = false;
+    private bool fire = false;
+    private float moveCount = 0f;
+
+,,,
