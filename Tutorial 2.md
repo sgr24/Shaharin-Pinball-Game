@@ -47,3 +47,30 @@ The way the spring will stop the ball from rolling back within its lane is throu
 
 ,,,
 
+To ensure the spring does not fall off the board, put in a stop towards the edge of the box, where it maximises the movement, so the spring cannot go back any further by writing the following within the script;
+
+,,,
+
+        if (moveCount <= 0)
+        {
+            fire = false;
+            moveCount = 0;
+        }
+
+,,,
+
+For the spring to work properly, we will write something that will allow the ball to shoot upwards like a cannon as soon as the spring is let go:
+
+,,,
+
+            if (fire && ready)
+            {
+                ball.transform.TransformDirection(Vector3.forward * 10);
+                ball.GetComponent<Rigidbody>().AddForce(0, 0, moveCount * power);
+                fire = false;
+                ready = false;
+            }
+            transform.Translate(0, 0, 20 * Time.deltaTime);
+            moveCount -= 20 * Time.deltaTime;
+
+,,,
