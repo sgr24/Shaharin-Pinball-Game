@@ -48,3 +48,20 @@ For the Axis;
 
 
 This will allow the hinge to be fixated into the back end of the paddle, allowing it to swing up and down when needed
+
+Scroll down still within the hinge joint section and select limits, which makes a fake spring and set a minimum and maximum bounce of 0.02
+
+,,,
+
+    // Parameters
+    public float restPosition = 0f;
+    public float pressedPosition = 45f;
+    public float flipperStrength = 10f;
+    public float flipperDamper = 1f;
+    public string inputButtonName = "LeftPaddle";
+
+,,,
+
+The parameters that have been set would have to be changed in order for the paddle to function properly
+
+Keep the Rest position as is, with the pressed position set to -40 and the strength set to 10000, with the flipper damper set to 25
