@@ -16,3 +16,5 @@ Click on the cube
 
 Drag the PullSpring script onto the cube, this will apply the code to the object
 
+The public code is what allows you to edit the strength of the spring, as well as how far it travels down to shoot the ball up and how fast the spring should move;
+
