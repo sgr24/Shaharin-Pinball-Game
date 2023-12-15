@@ -12,6 +12,11 @@ Now size the cube to the size you want it to look like and place it within the n
 
 Resize the plane or the board so it covers the new sling area
 
+To insert controls for mouse and keyboard to control the spring, head to Edit --> Preject Settings --> Input manager, then create controls for the pull control;
+- Positive control set to down (down arrow key to pull spring back)
+- Alt Postivie Button to mouse 2 (holding scroll wheel to pull spring back)
+- Make sure type is set to Key or Mouse button for the controls to work
+
 Click on the cube
 
 Drag the PullSpring script onto the cube, this will apply the code to the object
