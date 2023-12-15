@@ -63,3 +63,4 @@ Therefore for the entire code to work smoothly, we would have to first detect th
 
 ,,,
 
+Finally going back to the inspector tab, click and drag the ball object name from the hierarchy to the Ball section within the public script that is in the inspector tab
