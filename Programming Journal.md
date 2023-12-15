@@ -30,5 +30,12 @@ Started with the flipper, since there were a couple of features that needed to b
 
 ### Week 4 - 28th November
 
-For this week I decided to deeply focus on the scripts and make sure to get everything to efficiently work together, by taking time to focus on solely the script, it gives me time to figure out mistakes and flaws that I know I will be able to solve sooner or later.
+For this week I decided to deeply focus on the scripts and make sure to get everything to efficiently work together, by taking time to focus on solely the script, gives me time to figure out mistakes and flaws that I know I will be able to solve sooner or later.
 
+I had run into a couple of issues within the code regarding allowing the ball to automatically reset itself once it flew off the map, as well as the position of the ball (meaning where the ball is placed once reset) Other small flaws that I had found within pieces of the code I was able to easily fix with the help of youtube tutorials
+
+### Week 5 - 5th December
+
+This week I have dedicated myself to making sure everything is in place, everything works smoothly and there is not a single problem, at the same time if I did find a problem, I would easily be able to fix it without having to worry about how much time I have left to deadline day.
+
+During this stage I found a minor flaw, which I was able to easily fix by changing a couple of digits, the paddles or flaps to hit the ball within the pinball machine, it felt and looked heavy when I used the controls to control the paddle, on the other hand, everything else seemed fine, to fix the problem, I had decreased the mass of the ball slightly, as well as the mass of the paddles, however, I have increased the strength of the paddles, meaning the paddles are now a lot sharper and more responsive, as well as being able to hit the ball without a single problem.
