@@ -2,7 +2,7 @@
 
 I used the template from https://www.youtube.com/watch?v=HObTp3JM_Qw
 
-## 3. Making Out Of Bounds Border and making it functional
+## 4. Making Out Of Bounds Border and making it functional
 
 Start by placing a cube in the scene;
 - Game Object --> 3D object --> Cube
